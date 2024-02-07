@@ -1,0 +1,21 @@
+    Início (Home): Um link para a página inicial do site, onde os visitantes podem obter uma visão geral das informações disponíveis e navegar para outras seções do site.
+
+    Sobre nós: Uma seção que fornece informações sobre a agência policial, sua história, missão, visão, valores e outras informações institucionais.
+
+    Serviços: Links para informações sobre os serviços oferecidos pela agência policial, como relatórios de crimes, registros de incidentes, solicitação de relatórios, etc.
+
+    Emergência: Um link direto para números de emergência ou uma página com instruções sobre o que fazer em caso de emergência.
+
+    Notícias/Comunicados: Um link para notícias, comunicados à imprensa ou atualizações sobre atividades e eventos relacionados à polícia.
+
+    Recursos: Links para recursos úteis, como informações sobre prevenção de crimes, programas de educação comunitária, guias de segurança, etc.
+
+    Fale conosco: Um link para informações de contato da agência, como endereço, número de telefone e formulário de contato.
+
+    Carreiras/Oportunidades de Emprego: Se a agência estiver recrutando, um link para informações sobre carreiras e oportunidades de emprego na polícia.
+
+    FAQ (Perguntas Frequentes): Um link para uma página com perguntas frequentes e suas respostas, abordando dúvidas comuns dos visitantes.
+
+    Política de Privacidade/Termos de Uso: Links para informações legais importantes, como políticas de privacidade do site e termos de uso.
+
+    Links úteis: Links para recursos externos relevantes, como sites governamentais, organizações de segurança pública, centros de denúncia de crimes, etc.

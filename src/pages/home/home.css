@@ -1,0 +1,70 @@
+.firstSection{
+background-image: url(../../assets/img/policeBackground.jpg);
+height: 50vh;
+background-size: cover;
+color: #fff;
+
+}
+.firstSection h1{
+    text-shadow: 1px 2px 3px black;
+    position: relative;
+    top: 180px;
+    left: 100px;
+    width: 370px;
+    font-size: 42px;
+}
+.callNow{
+    position: relative;
+    top: 180px;
+    left: 100px;
+    padding: 10px 30px;
+    background-color: #5183B7;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+}
+.callNow:hover{
+    background-color: #619ad8;
+}
+/*Second section*/
+.secondSection{
+    background-color: #E9E9E9;
+    display: flex;
+    padding: 40px;
+    gap: 150px;
+}
+.policeDog{
+    height: 60vh;
+    
+}
+.leftSection p{
+    font-size: 22px;
+    width:390px;
+    text-align: justify;
+    color: #000000a6;
+    
+}
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.rightSection span{
+    font-size: 12px;
+    position: relative;
+    bottom: 30px;
+    color: #000000a6;
+}
+.subtitle{
+    color: #619ad8;
+    font-size: 18px;
+}
+.text{
+    font-size: 22px;
+    color: #000000a6;
+    width: 46vw;
+    margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+.navBarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #191D30;
+    padding: 25px;
+}
+.navBarContainer ul{
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+.navBarContainer a {
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.navBarContainer a:hover{
+    color: #6B91BE;
+}
+.logo{
+    width: 40px;
+    
+}
