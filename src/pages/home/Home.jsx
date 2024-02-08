@@ -1,6 +1,10 @@
 import React from 'react'
 import './home.css'
 import policeDog from '../../assets/img/policeDog.png'
+<<<<<<< HEAD
+import superintendent from '../../assets/img/policeImg.png'
+=======
+>>>>>>> 8591962d7e46f3ef38a24db26ef2fe44e04a4252
 function Home() {
   return (
     <div className='homeContainer'>
@@ -20,6 +24,25 @@ function Home() {
           <p className='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsum tempora totam deserunt doloribus iste a vero, aspernatur atque animi officiis, eligendi quis quasi? A harum dolorum eum architecto reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium ad amet modi. Repudiandae deleniti culpa nemo ut corrupti sed eaque quasi, nostrum praesentium numquam reiciendis id quidem minima debitis!</p>
         </div>
       </div>
+<<<<<<< HEAD
+      <div className="lastSection">
+        <div className="lastSectionContainer">
+          <h2>Nosso superintendente </h2>
+          <div className="positionLast">
+            <div className="leftLastSection">
+              <h3>Superintendente Guimaraes</h3>
+              <p className='aboutSuperintendent'>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos explicabo, doloribus nulla molestiae quod aut vel dolor vero dicta eaque, quae iure autem culpa cupiditate ad quasi officiis maiores rem.
+              </p>
+            </div>
+            <div className="rightLastSection">
+              <img src={superintendent} alt="superintendent" />
+            </div>
+          </div>
+        </div>
+      </div>
+=======
+>>>>>>> 8591962d7e46f3ef38a24db26ef2fe44e04a4252
     </div>
   )
 }

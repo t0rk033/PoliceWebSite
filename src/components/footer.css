@@ -1,0 +1,24 @@
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color:#191D30 ;
+    font-size: 18px;
+    color: #ffffffa4;
+}
+.footerContainer ul{
+    list-style: none;
+}
+.footerContainer a{
+    text-decoration: none;
+    color: #ffffffa4;
+    cursor: pointer;
+    transition: .5s;
+}
+.footerContainer a:hover{
+    color: #619ad8ce;
+}
+.footerContainer h3{
+    color: #5183B7;
+}
