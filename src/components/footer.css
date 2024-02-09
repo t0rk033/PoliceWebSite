@@ -22,3 +22,13 @@
 .footerContainer h3{
     color: #5183B7;
 }
+@media screen and (max-width:768px){
+    .footerContainer{
+        padding:0 10px;
+        height: 20vh;
+        font-size: 1.5vh;
+        
+    }
+    
+  
+}

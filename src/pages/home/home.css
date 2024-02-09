@@ -67,8 +67,8 @@ color: #fff;
     color: #000000a6;
     width: 46vw;
     margin-top: 20px;
-<<<<<<< HEAD
 }
+/*/Last section*/
 .lastSection{
 height: 80vh;
 background-image: url(../../assets/img/LasBackground2.png);
@@ -118,6 +118,66 @@ color: #5183B7;
     margin: 20px 80px;
     width: 350px;
     color: #ffffffaf;
-=======
->>>>>>> 8591962d7e46f3ef38a24db26ef2fe44e04a4252
+}
+@media screen and (max-width:768px){
+    
+    .firstSection{
+        padding: 30px;
+        height: 90vh;
+    }
+    .firstSection h1{
+        font-size: 7vh;
+        top: 10;
+        left: 0;
+        width: 205px;
+        height: 150;
+       
+    }
+    .callNow{
+        font-size: 3vh;
+        width: 50vw;
+        height: 10vh;
+        top: 10;
+        left: 0;
+    }
+    .secondSection{
+        flex-direction: column;
+       
+    }
+   .leftSection p {
+    font-size: 20px;
+    width: 85vw;
+   }
+    .policeDog{
+        height: 45vh;
+    }
+    .text{
+        width: 90vw;
+        text-align: left;
+    }
+    .lastSection{
+        height: 85vh;
+    }
+    .lastSection h2{
+        font-size: 28px;
+    }
+    .leftLastSection h3{
+        font-size: 14px;
+    margin: 0;
+    }
+    .positionLast{
+        flex-direction: column;
+        gap:0;
+        align-items: center;
+    }
+    .aboutSuperintendent{
+        font-size: 4vw;
+        margin: 0;
+        width: 90vw;
+    }
+    .rightLastSection img {
+        height: 45vh;
+        position: relative;
+        right: 88px;
+    }
 }
