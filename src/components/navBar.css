@@ -34,8 +34,9 @@
    .navBarContainer{
     padding: 12.5px 20px;
    }
-    .navBarContainer ul{
+    .navBarContainer ul li{
     display: none;
+    
    }
    .logo{
     width: 10vw;
@@ -45,4 +46,22 @@
     cursor: pointer;
     font-size: 58px;
    }
+   .active{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+   .active ul li{
+    display: block;
+    
+   }
+   .active ul {
+    flex-direction: column;
+    
+   }
+   
 }

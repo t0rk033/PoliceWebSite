@@ -23,10 +23,14 @@ color: #fff;
     border-radius: 8px;
     color: #FFF;
     font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
 }
 .callNow:hover{
     background-color: #619ad8;
 }
+
 /*Second section*/
 .secondSection{
     background-color: #E9E9E9;

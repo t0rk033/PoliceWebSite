@@ -1,15 +1,17 @@
 import React from 'react'
 import './home.css'
 import policeDog from '../../assets/img/policeDog.png'
-
+import { Link } from 'react-router-dom' 
 import superintendent from '../../assets/img/policeImg.png'
 
 function Home() {
   return (
+    
     <div className='homeContainer'>
+      
       <div className="firstSection">
       <h1>Sempre Defendendo</h1>
-        <button className='callNow'>Ligue agora</button>
+        <Link className='callNow' to='/contactUs'>Fale conosco</Link>
       </div>
       <div className="secondSection">
         <div className="leftSection">
