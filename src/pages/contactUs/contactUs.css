@@ -2,8 +2,10 @@
     height: 80vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     gap: 100px;
+    background-color: #5183B7;
 }
 .contactImg{
     height: 30vh;
@@ -12,29 +14,31 @@
     font-size: 5vh;
 
 }
-.contactContainer input[type="text"]{
+.nluxc-textarea.nluxc-prompt-box-text-input{
     width: 50vw;
-    height: 5vh;
+    height: 8vh;
     border-radius: 14px;
     border: none;
-    background-color:#5183B7 ;
     color: #fff;
     outline: none;
     font-size: 22px;
     padding: 10px;
+    text-align: center;
 }
-.contactContainer input[type="submit"]{
-    font-size: 22px;
-    background-color: #619ad8;
-    color: #fff;
-    font-weight: bold;
-    padding: .1vh 3vh;
-    border: none;
-    border-radius: 18px;
-    margin: 20px;
-    cursor: pointer;
+.nluxc-text-message-content{
+    background-color: #5183B7;
+    font-size: 18px;
 }
-.contactContainer input[type="submit"]:hover{
-    opacity: .8;
+.nluxc-textarea.nluxc-prompt-box-text-input::placeholder{
+    color: black;
 }
+.nluxc-text-message-content{
+    background-color: #5FE095;
 
+}
+.nluxc-text-message-content{
+
+}
+.bt-primary-filled.nluxc-prompt-box-send-button.nluxc-prompt-box-send-button-disabled{
+
+}
