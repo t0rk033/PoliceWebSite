@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Sos from './pages/sos/Sos'
 import ContactUS from './components/ContactUs'
+import IncidentReport from './pages/IncidentReport/IncidentReport'
 
 
 function RoutesApp() {
@@ -15,6 +16,7 @@ function RoutesApp() {
             <Route path='/' Component={Home}/>
             <Route path='/sos' Component={Sos}/> 
             <Route path='/contactUs' Component={ContactUS}/>
+            <Route path='/IncidentReport' Component={IncidentReport} />
         </Routes>
         <Footer/>
     </HashRouter>

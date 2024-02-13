@@ -17,7 +17,7 @@ function NavBar() {
         <ul>
             <li><a href="#">Recursos</a></li>
             <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Boletim Online</a></li>
+            <li><Link to={'/IncidentReport'}>Boletim Online</Link></li>
             <li><Link to="/sos" href="#">Emergência</Link></li>
         </ul>
       </div>

@@ -178,7 +178,21 @@ padding: 10px;
 }
 
 @media screen and (max-width:768px){
-    
+    .article{
+        flex-direction: column-reverse;
+    }
+    .articlePreview img{
+    width: 90vw;
+    }
+   .articleContainer{
+    height: 85vh;
+    width: 90vw;
+   }
+   .articlePreview{
+    height: 345vh;
+    background-size: contain;
+    background-position: bottom;
+   }
     .firstSection{
         padding: 30px;
         height: 90vh;
