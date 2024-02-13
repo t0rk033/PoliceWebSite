@@ -25,8 +25,8 @@ function NavBar() {
       <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Carreiras</a></li>
-            <li><a href="#">Fale Conosco</a></li>
             <li><a href="#">Noticias/Comunicados</a></li>
+            <li><Link to='/login'><i class='bx bxs-user'></i> Acesse</Link></li>
         </ul>
       </div>
       <i className='bx bx-menu' onClick={changeClass}></i>

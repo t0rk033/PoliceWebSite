@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Sos from './pages/sos/Sos'
 import ContactUS from './components/ContactUs'
 import IncidentReport from './pages/IncidentReport/IncidentReport'
+import Login from './pages/login/Login'
 
 
 function RoutesApp() {
@@ -17,6 +18,7 @@ function RoutesApp() {
             <Route path='/sos' Component={Sos}/> 
             <Route path='/contactUs' Component={ContactUS}/>
             <Route path='/IncidentReport' Component={IncidentReport} />
+            <Route path='/login' Component={Login} />
         </Routes>
         <Footer/>
     </HashRouter>

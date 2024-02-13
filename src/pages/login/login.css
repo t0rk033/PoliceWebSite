@@ -1,0 +1,40 @@
+.loginSection{
+    height: 75vh;
+    padding-top: 20px;
+}
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    padding: 40px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.801), -4px -6px 8px rgba(0, 0, 0, 0.432);
+    margin: 0 auto;
+    border-radius: 18px;
+}
+.loginContainer input{
+    border-radius: 16px;
+    
+}
+.loginImg{
+    height: 25vh;
+}
+.loginContainer input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.loginContainer input[type="submit"]:hover{
+    opacity: .9;
+}
+.formLoginContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
