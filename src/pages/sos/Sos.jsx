@@ -1,9 +1,10 @@
 import React from "react";
+import ContactUS from "../../components/ContactUs";
 
 function Sos() {
     return (
         <div>
-            <h1>Aqui vai uma página de emergência</h1>
+           <ContactUS/>
         </div>
     )
 }

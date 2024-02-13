@@ -1,7 +1,9 @@
 .firstSection{
-background-image: url(../../assets/img/policeBackground.jpg);
-height: 50vh;
+background-image: url(../../assets/img/background6.png);
 background-size: cover;
+
+height: 60vh;
+background-repeat: no-repeat;
 color: #fff;
 
 }
@@ -123,6 +125,58 @@ color: #5183B7;
     width: 350px;
     color: #ffffffaf;
 }
+/*article Preview*/
+.articlePreview{
+    
+    background-image: url(../../assets/img/articles/backgroundArticlePreview.jpg);
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+.articleContainer{
+background-color:#1f2231c0 ;
+height: 45vh;
+padding: 10px;
+
+}
+.articlePreview img{
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.473);
+   
+   
+}
+.textArticle{
+    font-size: 18px;
+    width: 49vw;
+   color: rgba(255, 255, 255, 0.733);
+   
+   
+}
+.articlePreview h2{
+    font-size: 75px;
+    color: #5183B7;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.521);
+}
+
+.articleContainer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #5183B7;
+    font-weight: bold;
+    cursor: pointer;
+}
+.articleContainer a:hover{
+    opacity: .8;
+}
+.article{
+    display: flex;
+    padding: 40px;
+    gap: 130px;
+    align-items: center;
+}
+
 @media screen and (max-width:768px){
     
     .firstSection{

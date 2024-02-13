@@ -3,7 +3,8 @@ import './home.css'
 import policeDog from '../../assets/img/policeDog.png'
 import { Link } from 'react-router-dom' 
 import superintendent from '../../assets/img/policeImg.png'
-
+import previewIMG from '../../assets/img/articles/article_Preview.jpg'
+import previewIMG2 from '../../assets/img/articles/imgPreviewArticle2.jpg'
 function Home() {
   return (
     
@@ -25,7 +26,26 @@ function Home() {
           <p className='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsum tempora totam deserunt doloribus iste a vero, aspernatur atque animi officiis, eligendi quis quasi? A harum dolorum eum architecto reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium ad amet modi. Repudiandae deleniti culpa nemo ut corrupti sed eaque quasi, nostrum praesentium numquam reiciendis id quidem minima debitis!</p>
         </div>
       </div>
-
+      <div className="articlePreview">
+        <div className="article">
+          <img src={previewIMG} alt="" />
+          <div className="articleContainer">
+            <h2>Mega Operação </h2>
+                  <p className='textArticle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aliquid, sed libero blanditiis odit sunt optio laudantium commodi ipsam sapiente, aspernatur error inventore! Tempore, animi at consequuntur beatae corporis quisquam!</p>
+                  <a href="#">Leia mais artigos</a>
+                  </div>
+        </div>
+        <div className="article">
+          <img src={previewIMG2} alt="" />
+          <div className="articleContainer">
+            <h2>Mão Amiga!</h2>
+                  <p className='textArticle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aliquid, sed libero blanditiis odit sunt optio laudantium commodi ipsam sapiente, aspernatur error inventore! Tempore, animi at consequuntur beatae corporis quisquam. Nulla aliquid, sed libero!</p>
+                  <a href="#">Leia mais artigos</a>
+                  </div>
+        </div>
+                
+        </div>
+        
       <div className="lastSection">
         <div className="lastSectionContainer">
           <h2>Nosso superintendente </h2>
