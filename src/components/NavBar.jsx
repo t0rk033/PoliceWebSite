@@ -1,10 +1,26 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './navBar.css'
 import logo from '../assets/img/logo.png'
 import { Link } from 'react-router-dom'
-
+import { onAuthStateChanged } from 'firebase/auth'
+import auth from '../firebase'
 
 function NavBar() {
+  //mudar o nome no lugar de acesse
+  
+  // const [changeUserName, setChangeUserName] = useState('acesse')
+
+  // useEffect(()=>{
+  //   const unsubscribe = onAuthStateChanged(auth, (user)=>{
+  //     if(user){
+  //       setChangeUserName(user.email)
+  //     }else{
+  //       setChangeUserName('Acesse')
+  //     }
+  //   })
+  //   return ()=> unsubscribe()
+  // }, [])
+ 
   //função para realização do click no menu da barra de navegação
  const [navBar, setNavBar] = useState('')
  const changeClass = () =>{
