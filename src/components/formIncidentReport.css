@@ -8,16 +8,18 @@
 .formContainer{
     display: grid;
     gap: 20px;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     background-color: #1f2231c0;
     position: relative;
+    width: 60vw;
     
 }
 fieldset {
     border: 1px solid #ccc;
     padding: 10px;
+    max-width: 900px;
 }
 .submit-button {
     padding: 10px 20px;
@@ -84,7 +86,7 @@ cursor: pointer;
      width: 87vw;
     }
     fieldset{
-     width: 80vw;
+     width: 75vw;
     }
     legend{
      font-size: 22px;

@@ -8,6 +8,7 @@ import ContactUS from './components/ContactUs'
 import IncidentReport from './pages/IncidentReport/IncidentReport'
 import Login from './pages/login/Login'
 import Profile from './pages/profile/Profile'
+import Register from './pages/register/Register'
 
 
 function RoutesApp() {
@@ -21,6 +22,7 @@ function RoutesApp() {
             <Route path='/IncidentReport' Component={IncidentReport} />
             <Route path='/login' Component={Login} />
             <Route path='/profile' Component={Profile}/>
+            <Route path='/register' Component={Register}/>
         </Routes>
         <Footer/>
     </HashRouter>

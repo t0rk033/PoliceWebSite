@@ -38,3 +38,14 @@
     align-items: center;
     gap: 10px;
 }
+.registerBtn{
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+}
+.registerSpan{
+    text-decoration: underline;
+}
+.registerSpan:hover{
+    color: red;
+}

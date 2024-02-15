@@ -3,7 +3,7 @@ import './login.css'
 import logo from '../../assets/img/logo.png'
 import {onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../../firebase.jsx'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 function Login() {
     const [user, setUser] = useState('')
     const [passwd, setPasswd] = useState('')
@@ -15,6 +15,7 @@ function Login() {
         await signInWithEmailAndPassword(auth, user, passwd)
         navigate('/')
       }catch(error){
+        alert('email ou senha incorreto')
         console.error(error.message)
       }
     }
@@ -36,6 +37,7 @@ function Login() {
             <input type="password" name="passwd" id="passwd" onChange={(e)=>{
                 setPasswd(e.target.value)
             }} />
+            <Link to='/register' className='registerBtn'> Não tem uma conta? <span className='registerSpan'>Cadastre-se!</span></Link>
             <input type="submit" value="Entrar" />
           </form>
         </div>

@@ -21,15 +21,7 @@ function Profile() {
      return ()=> unsubscribe()
    }, [])
 
-useEffect(()=>{
-    const signOut = ()=>{
-        signOut(auth).then(()=>{
-            console.log('deslogado')
-        }).catch((error)=>{
-            console.log(error)
-        })
-     }
-},[])
+
 
 
   return (
