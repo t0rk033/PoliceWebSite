@@ -34,7 +34,7 @@ useEffect(()=>{
 
   return (
     <div className='profileContainer'>
-        <button onClick={()=>signOut}>sair</button>
+        
       <div className="profileHeader">
         <h2>Seu Perfil</h2>
       </div>
