@@ -30,6 +30,21 @@
     color: #FFF;
     display: none;
 }
+.logoutBtn.off{
+display: none;
+}
+.rightNavBar button{
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.rightNavBar button:hover{
+    opacity: .8;
+}
 /*Smartphone*/
 @media screen and (max-width:768px){
    .navBarContainer{

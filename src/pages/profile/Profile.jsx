@@ -21,20 +21,11 @@ function Profile() {
      return ()=> unsubscribe()
    }, [])
 
-useEffect(()=>{
-    const signOut = ()=>{
-        signOut(auth).then(()=>{
-            console.log('deslogado')
-        }).catch((error)=>{
-            console.log(error)
-        })
-     }
-},[])
+
 
 
   return (
     <div className='profileContainer'>
-        <button onClick={()=>signOut}>sair</button>
       <div className="profileHeader">
         <h2>Seu Perfil</h2>
       </div>
