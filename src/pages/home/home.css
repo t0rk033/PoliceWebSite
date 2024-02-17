@@ -131,7 +131,7 @@ color: #5183B7;
     background-image: url(../../assets/img/articles/backgroundArticlePreview.jpg);
     background-size: cover;
     background-position: center;
-    
+    background-attachment: fixed;
    
 }
 .articleContainer{
