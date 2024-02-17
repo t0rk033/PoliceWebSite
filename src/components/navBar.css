@@ -4,6 +4,7 @@
     justify-content: space-between;
     background-color: #191D30;
     padding: 25px;
+    
 }
 .navBarContainer ul{
     display: flex;
@@ -49,6 +50,7 @@ display: none;
 @media screen and (max-width:768px){
    .navBarContainer{
     padding: 12.5px 20px;
+    overflow: auto;
    }
     .navBarContainer ul li{
     display: none;
