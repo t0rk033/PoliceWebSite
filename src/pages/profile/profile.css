@@ -5,6 +5,8 @@
     align-items: center;
     background-color: #f8f9fa;
     flex-direction: column;
+    overflow: auto;
+    padding: 40px;
   }
   
   .profileForm {

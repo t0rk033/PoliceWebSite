@@ -49,3 +49,8 @@
 .registerSpan:hover{
     color: red;
 }
+@media screen and (max-width:768px){
+    .loginContainer{
+        width: 90vw;
+    }
+}

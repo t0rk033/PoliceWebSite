@@ -82,4 +82,5 @@ display: none;
     right: 140px;
     top: 30px;
     font-weight: bold;
+    cursor: pointer;
 }
