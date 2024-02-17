@@ -11,17 +11,25 @@ function NavBar() {
    const [changeUserName, setChangeUserName] = useState('Acesse')
     //trocar url das pages
  const [profile, setProfile] = useState('/login')
+ const [incidentReportForAgents, setIncidentReportForAgents] = useState('/IncidentReport')
  //Adicionar botão de sair
  const [clasOff, setClassOf] = useState('logoutBtn off')
    useEffect(()=>{
      const unsubscribe = onAuthStateChanged(auth, (user)=>{
+      const email = user.email
        if(user){
          setChangeUserName(user.email)
          setProfile('/profile')
          setClassOf("")
-       }else{
+       }
+       else{
          setChangeUserName('Acesse')
          setProfile('/login')
+       }
+       if (email === 'guimaraes@police.com'){
+        setIncidentReportForAgents('/IncidentReportForAgents')
+       }else{
+        setIncidentReportForAgents('/IncidentReport')
        }
 
      })
@@ -58,7 +66,7 @@ function NavBar() {
         <ul>
             <li><a href="#">Recursos</a></li>
             <li><a href="#">Sobre nós</a></li>
-            <li><Link to={'/IncidentReport'}>Boletim Online</Link></li>
+            <li><Link to={incidentReportForAgents}>Boletim Online</Link></li>
             <li><Link to="/sos" href="#">Emergência</Link></li>
         </ul>
       </div>

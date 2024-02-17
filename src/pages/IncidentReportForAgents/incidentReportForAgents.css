@@ -1,0 +1,85 @@
+.agentAdmContainer {
+  height: 100vh;
+  background-color: #b4d4f7;
+  display: flex;
+}
+.menuOptionsAdm {
+  background-color: #191d30;
+  width: 20vw;
+  height: 100vh;
+  padding: 40px 15px;
+}
+.linksMenuOptions {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  cursor: pointer;
+  font-size: 90%;
+}
+.linksMenuOptions a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.7s;
+}
+.linksMenuOptions a:hover {
+  color: #007bff;
+}
+.form {
+  background-image: none;
+}
+.formContainer {
+  height: 100%;
+  overflow: auto;
+}
+/*estilizando o chamado*/
+.incident{
+    background-color: #191d309d;
+    width: 100%;
+    list-style: none;
+   
+}
+.newincidents{
+    padding: 30px 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: auto;
+}
+.newincidents.off{
+    display: none;
+}
+.formIncident.on{
+display: none;
+}
+.formIncident.off{
+    display: block;
+    position: relative;
+    left: 125px;
+    bottom: 50px;
+    padding: 20px;
+}
+.incident a{
+    color: #007bff;
+    text-decoration: none;
+}
+.circleNew{
+    background-color: rgba(255, 0, 0, 0.527);
+    color: #fff;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 25px;
+    left: -10px;
+}
+.backForm{
+    font-size: 42px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    right: 140px;
+    top: 30px;
+    font-weight: bold;
+}

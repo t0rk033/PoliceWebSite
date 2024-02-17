@@ -9,6 +9,7 @@ import IncidentReport from './pages/IncidentReport/IncidentReport'
 import Login from './pages/login/Login'
 import Profile from './pages/profile/Profile'
 import Register from './pages/register/Register'
+import IncidentReportForAgents from './pages/IncidentReportForAgents/IncidentReportForAgents'
 
 
 function RoutesApp() {
@@ -23,6 +24,7 @@ function RoutesApp() {
             <Route path='/login' Component={Login} />
             <Route path='/profile' Component={Profile}/>
             <Route path='/register' Component={Register}/>
+            <Route path='/IncidentReportForAgents' Component={IncidentReportForAgents} />
         </Routes>
         <Footer/>
     </HashRouter>

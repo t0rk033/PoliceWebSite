@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { auth } from '../../firebase';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { db } from '../../firebase'; // Importe db do firebase.js
-import { setDoc, doc } from 'firebase/firestore';
+import { setDoc, doc, getDoc } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
+import { uid } from '@nlux/core';
 function Register() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -28,11 +29,13 @@ function Register() {
                 });
 
             });
-            location('/login')
+            location('/')
         } catch(error) {
             console.error(error.message);
         }
     };
+
+
 
     return (
         <div className='profileContainer'>
@@ -42,7 +45,7 @@ function Register() {
             <form className='profileForm' onSubmit={handleLogin}>
             <div className='formGroup'>
           <label htmlFor="name">Nome:</label>
-          <input type="text" name="name" id="name"  onChange={(e)=>{
+          <input type="text" name="name" id="name" value={name} onChange={(e)=>{
             setName(e.target.value)
           }} />
         </div>

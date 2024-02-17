@@ -1,0 +1,7 @@
+.form{
+   background-image: url(../../assets/img/backgroundForm.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #007bff;
+    padding: 40px;
+}
