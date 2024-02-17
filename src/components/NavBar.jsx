@@ -76,7 +76,7 @@ function NavBar() {
       <div className="rightNavBar">
       <ul>
             <li><Link onClick={changeClass} to='/'>Home</Link></li>
-            <li><a href="#">Carreiras</a></li>
+            <li><Link to='/career'>Carreiras</Link></li>
             <li><a href="#">Noticias/Comunicados</a></li>
             <li><Link onClick={changeClass} to={profile}><i class='bx bxs-user'></i> {changeUserName} </Link> <button onClick={handleLogout} className={clasOff}>Sair</button></li>
         </ul>
