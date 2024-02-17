@@ -68,8 +68,7 @@ function NavBar() {
         <img src={logo} alt="Logo" className='logo'/>
       <div className="leftNavBar">
         <ul>
-            <li><a href="#">Recursos</a></li>
-            <li><a href="#">Sobre nós</a></li>
+            <li><Link to='/about' onClick={changeClass}>Sobre nós</Link></li>
             <li><Link onClick={changeClass} to={incidentReportForAgents}>Boletim Online</Link></li>
             <li><Link to="/sos" href="#" onClick={changeClass}>Emergência</Link></li>
         </ul>
