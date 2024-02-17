@@ -8,7 +8,7 @@ function IncidentReport() {
     setSpan((changeclass)=> changeclass=== 'formInfoOn'? 'formInfoOff': 'formInfoOn')
   }
   return (
-    <div className='form'>
+    <div className='formInci'>
       <span className={span}>
           <p>
             º Bem-vindo ao Registro de Ocorrência Policial Online. Esta página
