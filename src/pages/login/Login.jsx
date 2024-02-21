@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './login.css'
 import logo from '../../assets/img/logo.png'
-import {onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth'
+import {signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../../firebase.jsx'
 import { Link, useNavigate } from 'react-router-dom'
 function Login() {

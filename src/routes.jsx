@@ -11,7 +11,8 @@ import Profile from './pages/profile/Profile'
 import Register from './pages/register/Register'
 import IncidentReportForAgents from './pages/IncidentReportForAgents/IncidentReportForAgents'
 import About from './pages/about/About'
-import Career from './pages/career/Career'
+
+
 
 
 function RoutesApp() {
@@ -28,7 +29,6 @@ function RoutesApp() {
             <Route path='/register' Component={Register}/>
             <Route path='/IncidentReportForAgents' Component={IncidentReportForAgents} />
             <Route path='/about' Component={About} />
-            <Route path='/career' Component={Career} />
         </Routes>
         <Footer/>
     </HashRouter>
